@@ -1,0 +1,141 @@
+@media (max-width: 800px) {
+    .header{
+        padding-bottom: 6pc;
+    }
+
+    .header2{
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+    }
+
+    .rag > a{
+        text-decoration: none;
+        color: white;
+        margin-left: 4pc;
+        position: relative;
+        top: 3pc;
+        padding: 10px 30px 10px 30px;
+        border: 2px solid saddlebrown;
+        border-radius: 3pc;
+    }
+
+    .img > img{
+        /* width: 40pc; */
+        margin-top: 5pc;
+    }
+
+    .block{
+        border: 2px solid #040435;
+        border-radius: 20pc;
+        width: 8pc;
+        position: relative;
+        bottom: 0.8pc;
+    }
+
+    .te1 > p{
+        word-spacing: -2px;
+    }
+
+    .te1{
+        padding-right: 2pc;
+    }
+
+    .slide1 {
+        display: flex;
+        flex-direction: column;  
+    }
+
+    .te2{
+        margin-top: 2pc
+    }
+
+    .te2 > img{
+        width: 80%;
+    }
+    .slide2 > .be1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bee1 > p{
+        padding-left: 8pc;
+        padding-right: 7pc;
+        font-size: 30px;
+    }
+
+    .bee2 > p{
+        padding-left: 8pc;
+        padding-right: 7pc;
+        font-size: 30px;
+    }
+
+    .bee3 > p{
+        padding-left: 8pc;
+        padding-right: 7pc;
+        font-size: 30px;
+    }
+
+    .bee4 > p{
+        padding-left: 8pc;
+        padding-right: 7pc;
+        font-size: 30px;
+    }
+
+    .sp1{
+        border: 2px #040435 solid;
+        border-radius: 50pc;
+        margin-bottom: 2pc;
+        width: 23%;
+        margin-left: 5pc;
+    }
+
+    
+    .slide3{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .row2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pi1 > img{
+        margin-bottom: 3pc;
+        width: 20pc;
+    }
+
+    .pi2 > img {
+        margin-bottom: 5pc;
+        width: 20pc;
+    }
+
+    .pi3 > img{
+        margin-bottom: 3pc;
+        width: 20pc;
+        position: relative;
+        left: 3px;
+        padding-bottom: 5pc;
+    }
+
+    .slide4{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .slide4 > p{
+        /* padding-top: 2pc; */
+        line-height: 2pc;
+        text-align: justify;
+    }
+
+    .footer{
+        background-image: linear-gradient(to left, #040435, #25258a);
+        padding-top: 3pc;
+        padding-bottom: 3pc;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
